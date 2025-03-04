@@ -12,8 +12,8 @@ Este es un proyecto de ejemplo que utiliza ASP.NET Core, Dapper y MemoryCache pa
 1. Clona el repositorio:
 
 ```sh
-git clone https://github.com/tu-usuario/tu-repositorio.git
-cd tu-repositorio
+git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/Rolas444/asignaturas.git)
+cd asignaturas
 ```
 2. Crea un archivo .env con los datos de tu conexion a la base de datos:
 
