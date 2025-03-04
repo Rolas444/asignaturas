@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Lista de Asignaturas";
+}
+@model IEnumerable<Asignaturas>
+
+<div class="text-center">
+    <h1 class="display-4">Lista de Asignaturas del Grado de Enfermería</h1>
+    <div class="container align-content-center p-4">
+        <table class="table table-striped table-bordered table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Id</th>
+                    <th>Cod.</th>
+                    <th>Tipo</th>
+                    <th>ECTS</th>
+                    <th>Nombre</th>
+                    <th>Personalizable</th>
+                    <th>Horas</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.IdAsignatura</td>
+                        <td>@item.CodAsignatura</td>
+                        <td>@item.IdAsignatura</td>
+                        <td>@item.ECTS</td>
+                        <td>@item.Asignatura</td>
+                        <td>@item.EsPersonalizable</td>
+                        <td>@item.Horas</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+</div>
